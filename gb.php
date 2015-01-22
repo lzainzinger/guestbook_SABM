@@ -94,7 +94,7 @@ if (!$link) {
 					</td>
 				</tr>
 			</table>
-			<input type="submit" name="speichern" value="Film speichern">
+			<input type="submit" name="speichern" value="Speichern">
 		</form>
     </body>
 </html>
