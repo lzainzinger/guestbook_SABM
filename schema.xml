@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="gaestebuch" defaultIdMethod="native">
+  <table name="eintrag" phpName="Eintrag">
+    <column name="autor" type="varchar" size="32" required="true" />
+    <column name="datum" type="date" required="true" />
+    <column name="header" type="varchar" size="32" required="true" />
+    <column name="text" type="varchar" size="1024" required="true"/>
+    <column name="id" type="integer" required="true" autoIncrement="true" primaryKey="true" />
+  </table>
+</database>
